@@ -1,10 +1,11 @@
-import './App.css';
-import MemoryCard from './components/MemoryCard';
+import "./App.css";
+import MemoryCard from "./components/MemoryCard";
+import Header from "./components/Header";
+import bg from "./components/images/bg.jpg";
 function App() {
   return (
-    <div className="App">
-      <h1>VALORANT AGENT MEMORY GAME</h1>
-      <h2>Click on agents to score, don't click the same agent twice.</h2>
+    <div className="App" style={{ backgroundImage: `url(${bg})` }}>
+      <Header />
       <MemoryCard />
     </div>
   );
