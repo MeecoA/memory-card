@@ -1,7 +1,7 @@
 # memory-card
 Memory Card Game. A project under OTP curriculum
 ,a react project that uses hooks. 
-#Demo
+# Demo
 https://meecoa.github.io/memory-card/
 
 # Getting Started with Create React App
